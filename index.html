@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="A special birthday surprise">
+
+    <title>Birthday Surprise</title>
+
+
+    <!-- =========================
+         CSS
+    ========================== -->
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- =========================
+         FLOATING BALLOONS
+    ========================== -->
+
+    <div class="balloons" aria-hidden="true">
+
+        <span class="balloon balloon-1"></span>
+
+        <span class="balloon balloon-2"></span>
+
+        <span class="balloon balloon-3"></span>
+
+        <span class="balloon balloon-4"></span>
+
+        <span class="balloon balloon-5"></span>
+
+    </div>
+
+
+
+    <!-- =========================
+         WELCOME / GIFT SCREEN
+    ========================== -->
+
+    <section class="welcome-screen" id="welcomeScreen">
+
+        <div class="welcome-content">
+
+
+            <p class="small-heading">
+                A LITTLE SURPRISE
+            </p>
+
+
+            <h1>
+
+                Someone special
+
+                <span>
+                    has a surprise for you.
+                </span>
+
+            </h1>
+
+
+            <p class="welcome-text">
+
+                Tap the gift to open
+                your special surprise.
+
+            </p>
+
+
+
+            <!-- =========================
+                 GIFT BOX
+            ========================== -->
+
+            <button
+                type="button"
+                class="gift-button"
+                id="openButton"
+                aria-label="Open birthday gift">
+
+
+                <div class="gift-box">
+
+
+                    <!-- Gift Lid -->
+
+                    <div class="gift-lid">
+
+                        <div class="lid-ribbon"></div>
+
+                    </div>
+
+
+
+                    <!-- Gift Body -->
+
+                    <div class="gift-body">
+
+                        <div class="vertical-ribbon"></div>
+
+                        <div class="horizontal-ribbon"></div>
+
+                        <span class="open-text">
+                            OPEN ME
+                        </span>
+
+                    </div>
+
+
+
+                    <!-- Gift Bow -->
+
+                    <div class="gift-bow">
+
+                        <span class="bow-left"></span>
+
+                        <span class="bow-right"></span>
+
+                        <span class="bow-center"></span>
+
+                    </div>
+
+
+                </div>
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         BIRTHDAY SCREEN
+    ========================== -->
+
+    <main
+        class="birthday-screen"
+        id="birthdayScreen">
+
+
+        <!-- Confetti container -->
+
+        <div
+            class="confetti-container"
+            id="confetti">
+        </div>
+
+
+
+        <!-- Birthday Content -->
+
+        <div class="birthday-content">
+
+
+            <!-- Small Heading -->
+
+            <p class="birthday-label">
+
+                TODAY IS YOUR SPECIAL DAY
+
+            </p>
+
+
+
+            <!-- Cake -->
+
+            <div
+                class="cake"
+                aria-hidden="true">
+
+                🎂
+
+            </div>
+
+
+
+            <!-- Birthday Heading -->
+
+            <h2>
+
+                HAPPY
+
+                <span>
+                    BIRTHDAY
+                </span>
+
+            </h2>
+
+
+
+            <!-- Birthday Name -->
+
+            <h1 id="birthdayName">
+
+                Name
+
+            </h1>
+
+
+
+            <!-- Birthday Message -->
+
+            <p class="birthday-message">
+
+                May your special day be filled
+                with happiness, beautiful moments,
+                endless smiles and wonderful memories.
+
+            </p>
+
+
+
+            <!-- Divider -->
+
+            <div
+                class="birthday-divider"
+                aria-hidden="true">
+
+                <span></span>
+
+                <b>✦</b>
+
+                <span></span>
+
+            </div>
+
+
+
+            <!-- Final Wish -->
+
+            <p class="wish">
+
+                Wishing you a beautiful year ahead.
+
+            </p>
+
+
+
+            <!-- Decorative Icons -->
+
+            <div
+                class="birthday-icons"
+                aria-hidden="true">
+
+                🎈 &nbsp;
+                ✨ &nbsp;
+                🎁 &nbsp;
+                ✨ &nbsp;
+                🎈
+
+            </div>
+
+
+        </div>
+
+    </main>
+
+
+
+    <!-- =========================
+         BIRTHDAY MUSIC
+    ========================== -->
+
+    <audio
+        id="birthdayMusic"
+        loop>
+
+        <source
+            src="birthday.mp3"
+            type="audio/mpeg">
+
+    </audio>
+
+
+
+    <!-- =========================
+         JAVASCRIPT
+    ========================== -->
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
