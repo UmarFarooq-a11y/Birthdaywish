@@ -3,7 +3,7 @@
    CHANGE ONLY THIS
 ========================================= */
 
-const birthdayName = "My sweet Brother Muhammad Nadir";
+const birthdayName = "Maria";
 
 
 /* =========================================
